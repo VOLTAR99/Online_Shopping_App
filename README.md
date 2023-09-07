@@ -7,5 +7,9 @@
 ![Sc7](https://github.com/VOLTAR99/Online_Shopping_App/assets/119584242/cfed1635-e5c9-433b-82cb-14ab1a511dde)
 ![Sc8](https://github.com/VOLTAR99/Online_Shopping_App/assets/119584242/0823bb86-2889-4767-becc-4a3cd901731d)
 ![Sc9](https://github.com/VOLTAR99/Online_Shopping_App/assets/119584242/80874282-8517-4bd7-be30-1a7f7464dc60)
+
+#Video attatched
+
+
 https://github.com/VOLTAR99/Online_Shopping_App/assets/119584242/d1796f93-548a-4210-a2a8-cc6c697cf067
 
