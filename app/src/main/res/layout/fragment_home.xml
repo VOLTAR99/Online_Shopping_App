@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_frame_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="414dp"
+                android:layout_height="112dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/atmh" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atomic Habits"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="411dp"
+                android:layout_height="173dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/cdng" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programming Skills For Data Science"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 380/-"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Rs. 450/-"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="411dp"
+                android:layout_height="185dp"
+                android:layout_marginTop="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/rdpd" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rich Dad Poor Dad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 560/-"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/cart_btn1_for_atm_habits"
+                android:layout_width="67dp"
+                android:layout_height="47dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:srcCompat="@drawable/addcart"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/cart_btn2_for_prg_skills"
+                android:layout_width="48dp"
+                android:layout_height="51dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.947"
+                app:layout_constraintStart_toEndOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:srcCompat="@drawable/addcart"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/cart_btn3_for_RDPD"
+                android:layout_width="55dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.959"
+                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                app:srcCompat="@drawable/addcart"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
